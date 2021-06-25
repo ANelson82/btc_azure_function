@@ -35,7 +35,7 @@ The function triggered a commit of the JSON payload into an Azure SQL cloud data
 ![alt text](https://github.com/ANelson82/btc_azure_function/blob/master/powerBI_BTC.png "Power BI Visualization")
 
 # Challenges
-- A hit a challenge trying to use SQLalchemy to connect to Azure SQL.  Microsoft supports pyodbc drivers to connect to their SQL server, they don't support SQLalchemy.   I had to rewrite my code to utilize the pyodbc library.
+- A hit a challenge trying to use SQLalchemy to connect to Azure SQL.  Microsoft supports pyodbc and {ODBC Driver 17 for SQL Server} driver to connect to their SQL server, they don't support SQLalchemy.   I had to rewrite my code to utilize the pyodbc library.
 
 # Conclusion
 This pipeline project demonstrates a way to automate web data ingestion and storage using new serverless processing tools and well-established SQL database that can be accessed by stakeholders within an organization.
