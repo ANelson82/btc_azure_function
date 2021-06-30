@@ -3,6 +3,9 @@
 # Ingesting Web Data Using Cloud Technologies
 - Web data ingestion and storage is critical for business intelligence.  In this project I wanted to create a simple pipeline to reach out to a web API capture JSON payload via a python script that was held and running in a serverless environment, store the data in a cloud SQL database that could be accessed via dashboard and reporting tools.
 
+# Presentation
+[Click here for Presentation <-](https://www.youtube.com/watch?v=-HtDCCf-Grw)
+
 # The Goal and Plan
 - I created a whiteboard diagram of the pipeline to get a plan of how to build it and what tools I would need to incorporate.
 
